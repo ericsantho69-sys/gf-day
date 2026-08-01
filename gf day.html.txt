@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>For You ❤️</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+      background: pink;
+    }
+    #msg {
+      display: none;
+      font-size: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Happy Girlfriend's Day ❤️</h1>
+
+<img src="photo.jpg" width="250" 
+style="border-radius: 15px; box-shadow: 0 0 20px red;">
+<br><br>
+
+<button onclick="showMsg()">Click Me 💖</button>
+
+<div id="msg">
+  You are the best thing that ever happened to me 💕
+</div>
+
+<script>
+function showMsg() {
+  document.getElementById("msg").style.display = "block";
+}
+</script>
+
+</body>
+</html>
